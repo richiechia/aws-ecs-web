@@ -6,9 +6,9 @@ on:
 
 env:            
   AWS_REGION: ap-southeast-1           
-  ECR_REPOSITORY: richie-terraform-ecr       
-  ECS_SERVICE: richie-ecsdemo-github-actions         
-  ECS_CLUSTER: richie-terraform-ecs-github-actions                    
+  ECR_REPOSITORY: richie-terraform-1       
+  ECS_SERVICE: richie-ecsdemo-1         
+  ECS_CLUSTER: richie-terraform-1-ecs                    
   CONTAINER_NAME: richie-terraform-container
   TASKDEF: richie-ecs-task-definition
                                                
