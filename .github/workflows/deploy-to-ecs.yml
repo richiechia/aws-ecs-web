@@ -9,8 +9,8 @@ env:
   ECR_REPOSITORY: richie-terraform-1       
   ECS_SERVICE: richie-ecsdemo-1         
   ECS_CLUSTER: richie-terraform-1-ecs                    
-  CONTAINER_NAME: richie-terraform-container
-  TASKDEF: richie-ecs-task-definition
+  CONTAINER_NAME: richie-ecs-sample
+  TASKDEF: richie-ecsdemo-1
                                                
 jobs:
   deploy:
