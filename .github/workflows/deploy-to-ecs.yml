@@ -6,11 +6,11 @@ on:
 
 env:            
   AWS_REGION: ap-southeast-1           
-  ECR_REPOSITORY: jaz-terraform-ecr       
-  ECS_SERVICE: ecsdemo         
-  ECS_CLUSTER: jaz-terraform-ecs                    
-  CONTAINER_NAME: ecs-sample
-  TASKDEF: ecsdemo
+  ECR_REPOSITORY: richie-terraform-ecr       
+  ECS_SERVICE: richie-ecsdemo-github-actions         
+  ECS_CLUSTER: richie-terraform-ecs-github-actions                    
+  CONTAINER_NAME: richie-terraform-container
+  TASKDEF: richie-ecs-task-definition
                                                
 jobs:
   deploy:
